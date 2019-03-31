@@ -1,0 +1,47 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 3.271,
+    "endTimeSeconds": 4.631,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 6.368,
+    "endTimeSeconds": 8.433,
+    "executionResult": "SUCCESS",
+    "wait": {
+      "durationSeconds": 2.0
+    }
+  }, {
+    "sequence": 3,
+    "sourceScreenId": "2",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 10.212,
+    "endTimeSeconds": 10.801,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0",
+      "targetDetails": {
+        "className": "org.apache.cordova.engine.SystemWebView",
+        "androidClassName": "android.webkit.WebView"
+      }
+    }
+  }, {
+    "sequence": 4,
+    "sourceScreenId": "2",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 10.867,
+    "endTimeSeconds": 11.039,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }]
+}

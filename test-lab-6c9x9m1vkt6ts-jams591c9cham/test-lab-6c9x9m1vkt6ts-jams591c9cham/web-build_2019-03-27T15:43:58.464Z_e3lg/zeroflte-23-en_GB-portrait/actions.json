@@ -1,0 +1,27 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 3.375,
+    "endTimeSeconds": 6.177,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 7.615,
+    "endTimeSeconds": 8.41,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0",
+      "targetDetails": {
+        "className": "org.apache.cordova.engine.SystemWebView",
+        "androidClassName": "android.webkit.WebView"
+      }
+    }
+  }]
+}

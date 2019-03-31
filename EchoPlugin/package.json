@@ -1,0 +1,17 @@
+{
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Echo Plugin",
+  "devDependencies": {
+    "np": "^2.16.0",
+    "sync-cordova-xml": "^0.4.0"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-echoplugin",
+  "version": "0.0.1"
+}
